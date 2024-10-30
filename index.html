@@ -1,62 +1,132 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figuras de linguagem</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-    </style>
-  </head>
-  <body>
-    figuras de linguagem
-São recursos estilísticos usados para dar maior ênfase à comunicação e torná-la mais bonita.
-Metáfora: representa uma comparação de palavras com significados diferentes e cujo conectivo de comparação (como, tal, qual) fica subentendido na frase.
-Ex.: A vida é uma nuvem que voa. (A vida é como uma nuvem que voa.)
 
-Comparação: chamada de comparação explícita, ao contrário da metáfora, neste case são usados conectivos de comparação (como, assim, tal, qual).
-Ex.: Seus olhos são como jabuticabas.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figuras de linguagem</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
-Metonímia: transposição de significados considerando parte pelo todo, autor pela obra.
-Ex.: Costumava ler Shakespeare. (costumava ler os livros de shakespeare)
+    body, html {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: max-content;
+      background-color: rgba(64, 224, 208, 0.15);
+      overflow-y: scroll;
+    }
 
-Catacrese: representa o emprego impróprio de uma palavra por não existir outra mais específica.
-Ex.: Embarcou há pouco no avião. (Embarcar é colocar-se a bordo de um barco, mas como não há um termo mais específico para o avião, embarcar é utilizado)
+    .horizontal-center {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
 
-Sinestesia: acontece pela associação de sensações por órgãos de sentidos diferentes.
-Ex.: Com aqueles olhos frios, disse que não gostava mais da namorada. (A frieza está associada ao tato e não à visão)
+    .underline {
+      text-decoration: underline 2px blue;
+    }
 
-Elipse: é a omissão do termo de uma frase facilmente subentendido.
-Ex.: Normalmente, saímos muito (nós saímos muito)
-Então ficava calado, evitara o conflito (pois evitara o conflito)
+    .relacionado {
+      color: darkmagenta;
+    }
+  </style>
+</head>
 
-Pleonasmo: consiste na repetição de um termo da oração ou significado de uma palavra ou expressão, isto é, alguma informação é repetida desnecessariamente.
-Ex.: Hemorragia de sangue.
-Elo de ligação.
-Subir para cima.
+<body>
+  <h1 class="horizontal-center">Figuras de linguagem</h1>
+  <p>São recursos estilísticos usados para dar maior ênfase à comunicação e torná-la mais bonita.</p>
+  <ul>
+    <li>
+      <strong>Metáfora</strong>: representa uma comparação de palavras com significados diferentes e cujo conectivo de
+      comparação (como, tal, qual) fica subentendido na frase. <br>
+      Ex.: A vida é uma nuvem que voa. (A vida é <span class="underline">como</span> uma nuvem que voa.)
+    </li><br>
 
-Anacoluto: é o rompimento do esquema sintático da frase, do que resulta um termo sem função sintática no período.
-Ex.: Aquelas roupas velhas, joguei fora todas elas.
+    <li>
+      <strong>Comparação</strong>: chamada de comparação explícita, ao contrário da metáfora, neste case são usados
+      conectivos de comparação (como, assim, tal, qual). <br>
+      Ex.: Seus olhos são <span class="underline">como</span> jabuticabas.
+    </li><br>
 
-Antítese: emprego de palavras ou expressões de sentido oposto.
-Ex.: Chegou a tinta de alta qualidade e preço baixo.
+    <li>
+      <strong>Metonímia</strong>: transposição de significados considerando parte pelo todo, autor pela obra. <br>
+      Ex.: Costumava ler <span class="relacionado">Shakespeare</span>. (costumava ler <span class="relacionado">os livros de Shakespeare</span>)
+    </li><br>
 
-Ironia: Consiste no uso de uma expressão pela qual dizemos o contrário do que pensamos com intensão sarcástica e entonação apropriada.
-Ex.: Aquela mulher é um amor (é inconveniente). Ele é muito gente boa (é chato).
+    <li>
+      <strong>Catacrese</strong>: representa o emprego impróprio de uma palavra por não existir outra mais específica.
+      <br>
+      Ex.: <span class="underline">Embarcou</span> há pouco no avião. (Embarcar é colocar-se a bordo de um barco, mas como não há um termo mais
+      específico para o avião, embarcar é utilizado)
+    </li><br>
 
-Eufemismo: consiste na suavização de um fato trágico, desagradável, por meio de uma expressão mais suave.
-Ex.: Finalmente ele descansou (morreu). Ela está com CA (câncer).
+    <li>
+      <strong>Sinestesia</strong>: acontece pela associação de sensações por órgãos de sentidos diferentes. <br>
+      Ex.: Com aqueles <span class="underline">olhos frios</span>, disse que não gostava mais da namorada. (A frieza está associada ao tato e não à
+      visão)
+    </li><br>
 
-Hipérbole: consiste em exagerar a realidade para impressionar quem ouve.
-Ex.: Estou morrendo de sede. Esperei mil anos por você.
+    <li>
+      <strong>Elipse</strong>: é a omissão do termo de uma frase facilmente subentendido. <br>
+      Ex.: Normalmente, saímos muito (<span class="underline">nós</span> saímos muito) <br>
+      Então ficava calado, evitara o conflito (<span class="underline">pois</span> evitara o conflito)
+    </li><br>
 
-Prosopopeia: consiste em colocar em cena seres que não poderiam participar dela como interlocutores.
-Ex.: O menino agouo atentamente a roseira. - muito obrigado! - agradeceu a rosa.
+    <li>
+      <strong>Pleonasmo</strong>: consiste na repetição de um termo da oração ou significado de uma palavra ou
+      expressão, isto é, alguma informação é repetida desnecessariamente. <br>
+      Ex.: Hemorragia <span class="underline">de sangue</span>. <br>
+      Elo <span class="underline">de ligação</span>. <br>
+      Subir <span class="underline">para cima</span>.
+    </li><br>
 
-Personificação: consiste na atribuição de características humanas a seres inanimados ou irracionais.
-Ex.: As panelas ouviam o sussuro.
-  </body>
+    <li>
+      <strong>Anacoluto</strong>: é o rompimento do esquema sintático da frase, do que resulta um termo sem função
+      sintática no período. <br>
+      Ex.: Aquelas roupas velhas, joguei fora todas elas.
+    </li><br>
+
+    <li>
+      <strong>Antítese</strong>: emprego de palavras ou expressões de sentido oposto. <br>
+      Ex.: Chegou a tinta de <span class="underline">alta qualidade e preço baixo.</span>
+    </li><br>
+
+    <li>
+      <strong>Ironia</strong>: Consiste no uso de uma expressão pela qual dizemos o contrário do que pensamos com
+      intensão sarcástica e entonação apropriada. <br>
+      Ex.: Aquela mulher <span class="relacionado">é um amor</span> (<span class="relacionado">é inconveniente</span>). <br>
+      Ele <span class="relacionado">é muito gente boa</span> (<span class="relacionado">é chato</span>).
+    </li><br>
+
+    <li>
+      <strong>Eufemismo</strong>: consiste na suavização de um fato trágico, desagradável, por meio de uma expressão
+      mais suave. <br>
+      Ex.: Finalmente ele <span class="relacionado">descansou</span> (<span class="relacionado">morreu</span>). <br>
+      Ela está com <span class="relacionado">CA</span> (<span class="relacionado">câncer</span>).
+    </li><br>
+
+    <li>
+      <strong>Hipérbole</strong>: consiste em exagerar a realidade para impressionar quem ouve. <br>
+      Ex.: Estou <span class="underline">morrendo</span> de sede. <br>
+      Esperei <span class="underline">mil anos</span> por você.
+    </li><br>
+
+    <li>
+      <strong>Prosopopeia</strong>: consiste em colocar em cena seres que não poderiam participar dela como
+      interlocutores. <br>
+      Ex.: O menino agouo atentamente a roseira.<span class="underline">- muito obrigado! - agradeceu a rosa.</span>
+    </li><br>
+
+    <li>
+      <strong>Personificação</strong>: consiste na atribuição de características humanas a seres inanimados ou
+      irracionais. <br>
+      Ex.: As panelas <span class="underline">ouviam</span> o sussuro.
+    </li>
+  </ul>
+</body>
+
 </html>
